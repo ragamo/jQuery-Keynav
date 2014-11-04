@@ -1,0 +1,11 @@
+li {
+	background: #f00; 
+	float: left; 
+	margin: 10px;
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+li.selected {
+	background: #0f0;
+}

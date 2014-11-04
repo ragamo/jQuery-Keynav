@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Keynav test</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="../src/jquery.keynav.js"></script>
+</head>
+
+<body>
+
+	<ul>
+		<li></li>
+		<li class="selected"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<script>
+	jQuery('ul > li').keynav({
+		selectedClass: 'selected',
+		firstActive: '.selected',
+		keys: {
+			enter: function($el) {
+				console.log($el);
+			}
+		}
+	});
+	</script>
+	
+</body>
+</html>
