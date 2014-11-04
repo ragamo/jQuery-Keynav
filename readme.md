@@ -1,9 +1,7 @@
 jQuery Keynav
 =============
 
-Based on jQuery Keyboard Navigation Plugin
-
-created by Mike Hostetler
+Based on jQuery Keyboard Navigation Plugin created by Mike Hostetler
 
 http://mike-hostetler.com/jquery-keyboard-navigation-plugin
 
