@@ -1,9 +1,7 @@
 jQuery Keynav
 =============
 
-Based on jQuery Keyboard Navigation Plugin created by Mike Hostetler
-
-Original src: https://github.com/mikehostetler/jquery-keynav
+Demo: http://haack.cl/jquery/keynav/
 
 
 Usage
@@ -41,3 +39,11 @@ Default options
 			}
 		}
 	}
+
+
+Disclaimer
+----------
+
+This plugin is based on jQuery Keyboard Navigation Plugin created by Mike Hostetler
+
+Original src: https://github.com/mikehostetler/jquery-keynav
